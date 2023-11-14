@@ -55,6 +55,7 @@ header .navigation a:not(:last-child) {
 }
 
 .contactbutton {
+  color: var(--colour1) !important;
   background: var(--colour3);
 }
 
@@ -72,17 +73,53 @@ label {
   display: none;
 }
 
-
 /* Main*/
 
-
-.container{
+.container {
   margin-top: 30px;
 }
+.presentation {
+  padding-top: 10px;
+}
 
+.image-col{
+  padding-top: 40px;
+}
 
+.presentation h2{
+    font-size: 40px;
 
+}
 
+.presentation p{
+  font-size: 20px;
+  color: var(--colour3);
+}
+
+.img-fluid {
+  border-radius: 4px;
+}
+
+.presentation h2 {
+  font-weight: bold;
+  color: var(--colour4);
+}
+
+.presentation p {
+  font-weight: 300;
+}
+
+.btn {
+  cursor: pointer;
+  color: var(--colour1);
+  background: var(--colour3);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: var(--colour1);
+  background: var(--colour4);
+}
 
 @media (max-width: 960px) {
   header .navigation {
