@@ -12,6 +12,10 @@ body {
   background: var(--colour1);
 }
 
+ a{
+  text-decoration: none;
+ }
+
 /* Navigation*/
 header {
   position: relative;
@@ -82,18 +86,16 @@ label {
   padding-top: 10px;
 }
 
-.image-col{
+.image-col {
   padding-top: 40px;
 }
 
-.presentation h2{
-    font-size: 40px;
-
+.presentation h2 {
+  font-size: 40px;
 }
 
-.presentation p{
+.presentation p {
   font-size: 20px;
-  color: var(--colour3);
 }
 
 .img-fluid {
@@ -120,6 +122,15 @@ label {
   color: var(--colour1);
   background: var(--colour4);
 }
+/*Featured*/
+
+.featured-recipes h5 {
+  text-align: center;
+  color: var(--colour4);
+}
+
+
+
 
 @media (max-width: 960px) {
   header .navigation {
