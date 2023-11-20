@@ -171,14 +171,37 @@ label {
 
 /*About*/
 
-.article-container a{
+.heading {
+  text-align: center;
+}
+
+.article-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 100%;
+}
+.article-container a {
   color: var(--colour4);
   text-decoration: underline;
 }
 
+.article-content {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+
+li.about-nav {
+  display: inline-block;
+  margin: 0 10px;
+      text-transform: uppercase;
+      font-weight: bolder;
+
+}
+
 /*Footer*/
 
-.page-footer{
+.page-footer {
   text-align: center;
   display: flex;
   align-items: center;
@@ -188,17 +211,15 @@ label {
   padding: 25px 20px 15px 20px;
 }
 
-.page-footer a{
+.page-footer a {
   color: var(--colour2);
   font-weight: bolder;
 }
 
-.page-footer .footer-logo{
+.page-footer .footer-logo {
   color: var(--colour2);
   font-weight: bolder;
 }
-
-
 
 @media (max-width: 960px) {
   header .navigation {
