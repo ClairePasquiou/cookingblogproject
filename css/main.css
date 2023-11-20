@@ -146,13 +146,13 @@ label {
   margin-bottom: 0;
   margin-top: 0.25rem;
   line-height: 1;
-  color: grey;
+  color: var(--colour4);
 }
 
 .recipe p {
   margin-bottom: 0;
   line-height: 1;
-  color: grey;
+  color: var(--colour3);
   margin-top: 0.5rem;
   letter-spacing: normal;
 }
