@@ -183,20 +183,85 @@ label {
 .article-container a {
   color: var(--colour4);
   text-decoration: underline;
+  text-decoration-color: #aae868;
+  text-underline-offset: 6px;
+}
+
+.article-container a:hover {
+  text-decoration-color: var(--colour4);
 }
 
 .article-content {
   margin-left: 300px;
   margin-right: 300px;
+  line-height: 30px;
+  font-size: 19px;
 }
-
 
 li.about-nav {
   display: inline-block;
   margin: 0 10px;
-      text-transform: uppercase;
-      font-weight: bolder;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 
+.container-staff {
+  position: relative;
+  width: 50%;
+
+}
+.grid {
+  display: grid;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.staff-img {
+  box-shadow: 19px 20px rgba(130, 209, 34, 0.2);
+  display: block;
+  margin: 0;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(130, 209, 34, 0.2);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container-staff:hover .overlay {
+  width: 97%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.team{
+  margin-left: 200px;
+}
+
+.team h2{
+  margin-left: 400px;
 }
 
 /*Footer*/
