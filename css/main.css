@@ -270,6 +270,7 @@ li.about-nav {
   width: 100%;
   margin: 0;
   padding: 60px;
+  background-color: #fff;
 }
 .contact-container {
   display: grid;
@@ -280,8 +281,9 @@ li.about-nav {
 
 .contact-info {
   padding-top: 50px;
-  padding-left: 96px;
-  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding-right: 90px;
   line-height: 30px;
 }
 
@@ -314,6 +316,16 @@ li.about-nav {
 .form-label {
   margin-bottom: 5px;
   text-transform: capitalize;
+}
+
+.form-container{
+ 
+
+  margin-right: 100px;
+}
+
+.contact-button-form{
+
 }
 
 
