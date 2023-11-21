@@ -68,7 +68,7 @@ header .navigation a:not(:last-child) {
   color: var(--colour1) !important;
 }
 
-label {
+.checklabel {
   display: none;
 }
 
@@ -208,7 +208,6 @@ li.about-nav {
 .container-staff {
   position: relative;
   width: 50%;
-
 }
 .grid {
   display: grid;
@@ -256,13 +255,68 @@ li.about-nav {
   -ms-transform: translate(-50%, -50%);
 }
 
-.team{
+.team {
   margin-left: 200px;
 }
 
-.team h2{
+.team h2 {
   margin-left: 400px;
 }
+
+/*Contact Form*/
+
+
+.contact-form{
+  width: 100%;
+  margin: 0;
+  padding: 60px;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 550px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.contact-info {
+  padding-top: 50px;
+  padding-left: 96px;
+  padding-right: 100px;
+  line-height: 30px;
+}
+
+.contact-info a {
+  color: var(--colour4);
+  text-decoration: underline;
+  text-decoration-color: #aae868;
+  text-underline-offset: 6px;
+}
+
+.contact-info a:hover {
+  text-decoration-color: var(--colour4);
+}
+
+.contact-info h3 {
+  color: var(--colour4);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+
 
 /*Footer*/
 
@@ -290,18 +344,18 @@ li.about-nav {
   header .navigation {
     display: none;
   }
-  label {
+  .checklabel {
     display: block;
     font-size: 25px;
     cursor: pointer;
     transition: 0.3s;
   }
 
-  label:hover {
+  .checklabel:hover {
     color: #fff;
   }
 
-  label .close-btn {
+  .checklabel .close-btn {
     display: none;
   }
 
@@ -336,7 +390,7 @@ li.about-nav {
     position: fixed;
   }
 
-  label .menu-btn {
+  .checklabel .menu-btn {
     position: absolute;
   }
 
