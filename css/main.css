@@ -359,25 +359,25 @@ li.about-nav {
   padding: 240px 0;
 }
 
-.headerdelivery h1{
+.headerdelivery h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 1;
   margin: 30px 0;
 }
 
-.headerdelivery h3{
-  font-weight:900;
+.headerdelivery h3 {
+  font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 5px;
 }
 
-.headerdelivery h3 span{
+.headerdelivery h3 span {
   color: var(--colour3);
 }
 
-.headerdelivery a{
+.headerdelivery a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -389,44 +389,42 @@ li.about-nav {
   color: #5c8d89;
   padding: 16px 32px;
   border-radius: 4px;
-  
 }
 
-.aboutdelivery{
-  margin-top:60px;
+.aboutdelivery {
+  margin-top: 60px;
   margin-bottom: 100px;
 }
 
-.aboutdelivery h3{
+.aboutdelivery h3 {
   font-size: 40px;
   text-transform: capitalize;
   color: var(--colour4);
 }
 
-.aboutdelivery .titles{
-font-weight: 500;
-font-size: 18px;
-color: var(--colour4);
+.aboutdelivery .titles {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--colour4);
 }
 
-.aboutdelivery p{
-font-size: 15px;
-color: var(--colour4);
+.aboutdelivery p {
+  font-size: 15px;
+  color: var(--colour4);
 }
 
-.aboutdelivery img{
-    width: 300px;
+.aboutdelivery img {
+  width: 300px;
   height: 300px;
   object-fit: cover;
   border-radius: 30%;
 }
 
-.about-2{
+.about-2 {
   margin-bottom: 120px;
 }
 
-
-.about-2 img{
+.about-2 img {
   width: 400px;
   height: 280px;
   object-fit: cover;
@@ -447,12 +445,11 @@ color: var(--colour4);
   color: var(--colour1) !important;
 }
 
-
-.examples h2{
+.examples h2 {
   color: var(--colour4);
 }
 
-.examples a{
+.examples a {
   color: var(--colour4);
   font-weight: bold;
 }
