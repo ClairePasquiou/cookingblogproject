@@ -344,6 +344,17 @@ li.about-nav {
 
 }
 
+/* Delivery*/
+
+.headerdelivery{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/delivery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: var(--colour1);
+  padding: 250px 0;
+}
+
 /*Footer*/
 
 .page-footer {
