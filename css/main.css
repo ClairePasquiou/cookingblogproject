@@ -392,6 +392,11 @@ li.about-nav {
   
 }
 
+.abutdelivery h3{
+  text-transform: capitalize;
+  
+}
+
 /*Footer*/
 
 .page-footer {
