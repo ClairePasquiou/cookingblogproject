@@ -392,10 +392,28 @@ li.about-nav {
   
 }
 
-.abutdelivery h3{
+.aboutdelivery h3{
   text-transform: capitalize;
-  
+  color: var(--colour4);
 }
+
+.aboutdelivery .titles{
+font-weight: 500;
+font-size: 18px;
+color: var(--colour4);
+}
+
+.aboutdelivery p{
+font-size: 15px;
+}
+
+.aboutdelivery img{
+    width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30%;
+}
+
 
 /*Footer*/
 
