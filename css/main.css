@@ -452,6 +452,11 @@ color: var(--colour4);
   color: var(--colour4);
 }
 
+.examples a{
+  color: var(--colour4);
+  font-weight: bold;
+}
+
 /*Footer*/
 
 .page-footer {
