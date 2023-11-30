@@ -387,6 +387,18 @@ li.about-nav {
   color:var(--colour3);
 }
 
+.category{
+  color: rgb(132, 126, 126);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.mealtitle{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
 
 
 
